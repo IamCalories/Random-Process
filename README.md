@@ -33,5 +33,6 @@ For example: 燈泡
 - Counting Process: 在某段時間內燈泡壞掉的次數。  
 
 Poisson Process:  
-1. 一段時間內有多少個poisson point  
+1. 一段時間[t1, t2]之中事件發生的隨機數目(k個poisson point)  
+-> P[(N(t2)-N(t1))=k] = ...  
 2. 任何兩個non-overlapping interval彼此之間為independent  
