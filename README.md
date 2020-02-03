@@ -12,4 +12,9 @@ second order: 能量、first order: DC能量
   -> 最關心的是輸入與輸出之間的關係 (從通訊角度，x和y能量的相互影響。通常x:input, y:output)  
   
 General Properties: 給random process一些限制，方便做實驗  
-- independent: 兩個random process所有的"finite dimensional sample"為independent
+- independent: 兩個random process所有的"finite dimensional sample"為independent，joint distribution直接機率相乘。
+-> 但muti-dimensional distribution並不能表示完整random process，唯有給probability distribution才會知道。  
+- Orthogonality: 能量傳送不會相互影響  
+-> Antocorrelation=0(包含1st moment, 2nd moment)  
+- Uncorrelation: 數學上的定義，排除1st moment(DC能量)，variance(2nd moment)沒有變異  
+
