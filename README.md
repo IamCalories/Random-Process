@@ -19,3 +19,19 @@ General Properties: 給random process一些限制，方便做實驗
 - Uncorrelation: 數學上的定義，排除1st moment(DC能量)，variance(2nd moment)沒有變異  
 - White: red to purple份量都一樣，所有頻譜能量的份量是一樣的  
 -> indirect: 與white這個字無關(此書定義較為廣泛)
+- Independent Increment: 量子運動(布朗花粉實驗)  
+  
+Riemann Integral: 切長方形(分兩類: 長方形低處(比實際小)、高處(比實際大))  
+-> 用step function逼近最真實面積  
+  
+E[s]先積分再取期望值  
+-> Riemann integral保證積分和期望值可以交換: 可以先做期望值再積分 (Lebesque intergral不行)  
+
+For example: 燈泡
+- Point Process: 每個燈泡壞掉的時間點t1, t2, t3, ...  
+- Renewal Process: 兩個t之間的間格是每個燈泡的life time (燈泡壞掉的週期-> renewal lightbub)  
+- Counting Process: 在某段時間內燈泡壞掉的次數。  
+
+Poisson Process:  
+1. 一段時間內有多少個poisson point  
+2. 任何兩個non-overlapping interval彼此之間為independent  
